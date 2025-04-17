@@ -5,10 +5,10 @@
 - Unzip the script into the directory of your choice
 - Visit this [link](https://stackoverflow.com/questions/38782928/how-to-add-man-and-zip-to-git-bash-installation-on-windows)
   - Follow the answer with 129 upvotes made by NSJonas and edited by Mickverm
-- Open the script in VS Code and edit lines 10, 11, and 110 (and if you want, line 46) so that the directories are the host of your files
-  - For ZIP Files: The zip files I download from canvas are located in my downloads folder, that is why I have "/c/Users/oenvi/Downloads/" as the initial value of **ZIP_FILE**
+- Open the script in VS Code and edit lines 13, 14, and 120 (and if you want, line 49) so that the directories are the host of your files
+  - For ZIP Files: The zip files I download from canvas are located in my downloads folder, so line 10 will be the relative path to my downloads folder.
     - Same thing can be said about the zip files you wish to delete from your downloads folder
-  - For the contents of the zip after unzipping: the contents after unzipping will be located in my **grading** folder, that is why I have "/c/Users/oenvi/OneDrive/Documents/.GRADING/" as the initial value of **DEST_FOLDER**
+  - For the contents of the zip after unzipping: the contents after unzipping will be located in my **grading** folder
 
 ## Running the Script
 
