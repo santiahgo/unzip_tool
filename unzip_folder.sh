@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Loading environment variables (testing something rq)
+# Loading environment variables
 source .env
 
 # Check if the number of arguments is correct, it has to be the project/exercise folder name and destination folder name (in that order)
