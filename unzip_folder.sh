@@ -2,7 +2,7 @@
 
 source .env
 
-# Check if the number of arguments is correct
+# Check if the number of arguments is correct, it has to be the project/exercise folder name and destination folder name (in that order)
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <input_file> <output_file>"
     exit 1
